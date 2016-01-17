@@ -1,0 +1,50 @@
+@charset "utf-8";
+*{padding: 0; margin:0;}
+
+#contactInfo{
+	min-width: 1336px;
+	height: 500px;
+	background: #FFF;
+}
+
+.contact{
+	height: 300px;
+	width: 800px;
+	padding-top: 60px;
+	margin: auto;
+	color: #666;
+}
+
+.contact h1{
+	font-size: 55px;
+	text-align:center;
+	font-family: "Microsoft YaHei UI";
+	font-weight: 100;
+}
+
+.contact span{
+	padding: 0px;
+	margin: 0;
+	font-size: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 25px;
+}
+
+.contact p{
+	padding: 0px;
+	margin: 0;
+	font-size: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 40px;
+}
+
+.contact a{
+	text-decoration: underline;
+	color: #00F;
+}
+
+#map{
+	min-width: 1336px;
+	height: 500px;
+}
+
