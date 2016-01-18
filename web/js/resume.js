@@ -1,7 +1,6 @@
 $(function(){
 	
 		$('#fullpage').fullpage({
-			verticalCentered:false,
 			anchors: ['NavScreen','GeneralScreen','ExperienceScreen','ProjectScreen','EducationScreen','SkillScreen','HobbyScreen','FooterScreen'],
 			
 			afterLoad: function(anchorLink, index){
@@ -10,8 +9,8 @@ $(function(){
 				//using index
 				if(index == 2){
 					$('.general p').stop().animate({opacity: 1},500,function(){
-				$('.general img').animate({opacity: 1, top: 50+'%'},800,function(){
-					$('.general h1').animate({opacity: 1},1000);});
+						$('.general img').animate({opacity: 1, top: 50+'%'},800,function(){
+							$('.general h1').animate({opacity: 1},1000);});
 		});		
 				}
 				if(index == 3){
@@ -31,8 +30,8 @@ $(function(){
 				}
 				if(index == 6){
 					$('.skills_text').animate({top: 3+'%'}, 800);
-					$('.skills_ul1').stop().animate({marginLeft: '35%'},800);
-					$('.skills_ul2').stop().animate({marginRight: '35%'},800);
+					$('.skills_ul1').stop().animate({marginLeft: '30%'},800);
+					$('.skills_ul2').stop().animate({marginRight: '30%'},800);
 				}
 				if(index == 7)
 					$('.hobbies_list').stop().animate({height: 600},800);
@@ -128,4 +127,28 @@ $(function(){
 				$('.'+selected).stop().animate({'font-size':'18px'},300);
 			}	
 	);
+	
+	var clickNum = 0;
+	for(var i=1; i<8; i++)
+	$('.nav_dot_'+i).click(function(){
+		console.log($(this).attr('class').charAt(8))
+		$.fn.fullpage.moveTo( $(this).attr('class').charAt(8) );
+		clickNum+=1;
+		$('#nav').animate({marginLeft: -120}, 500,function(){
+			$('.nav_dot_0').css("background-position","90px 5px");	
+		});
+	});
+	
+	$('.nav_dot_0').click(function(){
+		clickNum+=1;
+		if(clickNum%2==0){
+			$('#nav').animate({marginLeft: -120}, 500,function(){
+				$('.nav_dot_0').css("background-position","90px 5px");	
+			});
+		}
+		else{
+			$('.nav_dot_0').css("background-position","125px 5px");
+			$('#nav').animate({marginLeft: 0}, 500);
+		}
+	});
 });

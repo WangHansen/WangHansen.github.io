@@ -68,7 +68,7 @@ body, html{
 	height: 100%;
 	background-image: url(../pic/experience/bridge.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	min-height: 800px;
 }
 
@@ -334,4 +334,30 @@ body, html{
 	/*text-indent: 120px;*/
 	text-align: left;
 	line-height: 25px;
+}
+
+#nav{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	background-color: #333;
+	z-index: 30;
+	width: 120px;
+	margin-left: -120px
+}
+
+#nav li{
+	line-height: 50px;
+	background-color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	border-bottom: 1px solid #666;
+}
+
+.nav_dot_0{
+	width: 185px; 
+	height: 70px; 
+	background: url(../pic/qianhou.png) no-repeat 90px 5px;
+	text-align: right;
+	border: 0px !important;
 }
