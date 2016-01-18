@@ -1,9 +1,11 @@
-*{ padding: 0; margin: 0}
+*{
+	padding: 0;
+	margin: 0;
+}
 
 body, html{
-	height: 100%;
+	/*height: 100%;*/
 	/*取消滚动条*/
-	/*overflow: hidden;*/
 	min-width: 1336px;
 }
 
@@ -73,9 +75,10 @@ body, html{
 .experience_text{
 	position: absolute;
 	text-align: left;
-	top: 30%;
-	left: 67%;
+	top: 20%;
+	right: 0%;
 	opacity: 0;
+	min-width: 300px;
 }
 .experience_text h1{
 	font-weight: 100;
@@ -91,8 +94,8 @@ body, html{
 }
 .experience_bar{
 	position: absolute;
-	top: 65%;
-	left: 10%;
+	top: 77%;
+	left: 0%;
 	height: 120px;
 	min-width: 640px;
 	opacity: 0;
@@ -133,6 +136,7 @@ body, html{
 	margin: auto;left: 0; right: 0;
 	top: 10%;
 	font-weight: 100;
+	opacity: 0;
 }
 .projects_text p{
 	color: #333;
@@ -194,6 +198,7 @@ body, html{
 	text-align: center;
 	color: rgb(254,254,175);
 	top: 10%;
+	left: 50%;
 }
 /*
 .timeline{
@@ -218,7 +223,7 @@ body, html{
 	position: absolute;
 	margin: auto;left: 0; right: 0;
 	top: 40%;
-	left: -200%;
+	left: -140%;
 	width: 100%;
 	min-width: 1336px;
 	height: 500px;
@@ -265,7 +270,7 @@ body, html{
 .skills_text{
 	position: absolute;
 	margin: auto;left: 0; right: 0;
-	top:5%;
+	top:-30%;
 	padding-top: 40px;
 	text-align: center;
 	color: #FFF;
@@ -306,7 +311,7 @@ body, html{
 .hobbies_text{
 	position: absolute;
 	margin: auto; left: 0; right: 0;
-	top: 4%;
+	top: 1%;
 	padding-top: 40px;
 	height: 500px;
 	text-align: center;
@@ -321,6 +326,8 @@ body, html{
 	width: 20%;
 	margin: 0 auto;
 	color: #333;
+	overflow: hidden;
+	height: 0px;
 }
 
 .hobbies_list li{

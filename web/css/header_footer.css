@@ -25,6 +25,10 @@ a{
 	text-decoration: none;
 }
 
+#header{
+	height: 130px !important;
+}
+
 .top{
 	width: 100%;
 	background: #999;
@@ -208,7 +212,7 @@ a{
 	z-index: 20;
 	clear: both;
 	background: #000;
-	height: 210px;
+	height: 210px !important;
 	width: 100%;
 	min-width: 1336px;
 	font-size: 14px;
@@ -257,8 +261,8 @@ a{
 }
 
 /*------------------------------------function class------------------------------*/
-.active{
+/*.active{
 	display: inline;
-}
+}*/
 
 
