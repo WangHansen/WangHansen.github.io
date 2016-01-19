@@ -6,7 +6,6 @@
 			console.log(distance);
 			if (distance>40)
 			{//这个数字决定下拉多少后开始fixed
-				alert(">40");
 				$('.header_icon').addClass("fixed");
 				$('.header_icon img').css('box-shadow',"3px 3px 5px #000000");
 			}

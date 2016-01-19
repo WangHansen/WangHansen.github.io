@@ -352,9 +352,16 @@ body, html{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	border-bottom: 1px solid #666;
+	text-indent: 5px;
+}
+
+#nav a:hover{
+	color: #CCC;
+	/*text-decoration: underline;*/	
 }
 
 .nav_dot_0{
+	cursor: pointer;
 	width: 185px; 
 	height: 70px; 
 	background: url(../pic/qianhou.png) no-repeat 90px 5px;
