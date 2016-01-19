@@ -4,11 +4,11 @@ $(function(){
 			function(){
 				$('#downwards').animate({opacity: 1},500);
 				$('#downwards').click(function(){
-						$.fn.fullpage.moveTo(2);
+					alert("Please_use_your_mouse_wheel_to_scroll_down");
+					$.fn.fullpage.moveTo(2);
 				});
 				for(var i=0; i<100; i++){
 					$('#downwards').animate({top: 70+'%'},500,function(){$('#downwards').css('top','68%');});
-					
 				}
 		},3000);
 		
