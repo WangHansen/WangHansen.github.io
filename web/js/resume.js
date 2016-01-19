@@ -1,5 +1,19 @@
 $(function(){
-	
+		
+		setTimeout(
+			function(){
+				$('#downwards').animate({opacity: 1},500);
+				$('#downwards').click(function(){
+						$.fn.fullpage.moveTo(2);
+				});
+				for(var i=0; i<100; i++){
+					$('#downwards').animate({top: 70+'%'},500,function(){$('#downwards').css('top','68%');});
+					
+				}
+		},3000);
+		
+		
+		
 		$('#fullpage').fullpage({
 			anchors: ['NavScreen','GeneralScreen','ExperienceScreen','ProjectScreen','EducationScreen','SkillScreen','HobbyScreen','FooterScreen'],
 			
@@ -8,7 +22,9 @@ $(function(){
 	
 				//using index
 				if(index == 2){
+					$('#downwards').remove('#downwards');
 					$('.general p').stop().animate({opacity: 1},500,function(){
+						$('.general img').css('display', 'block');
 						$('.general img').animate({opacity: 1, top: 50+'%'},800,function(){
 							$('.general h1').animate({opacity: 1},1000);});
 		});		
@@ -131,7 +147,6 @@ $(function(){
 	var clickNum = 0;
 	for(var i=1; i<8; i++)
 	$('.nav_dot_'+i).click(function(){
-		console.log($(this).attr('class').charAt(8))
 		$.fn.fullpage.moveTo( $(this).attr('class').charAt(8) );
 		clickNum+=1;
 		$('#nav').animate({marginLeft: -120}, 500,function(){
