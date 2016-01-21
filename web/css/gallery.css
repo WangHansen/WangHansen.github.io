@@ -36,6 +36,31 @@
 	/*display: none;*/
 }
 
+.arrows{
+	position: fixed;
+	height: 50px;
+	width: 30px;
+	opacity: 0.5;
+	top: 10px;
+	left: 10px;
+	background: url(../pic/arrows.png);
+	z-index: 40;
+	background: #666;
+	border: 1px solid #FFF;
+}
+
+.arrows:hover{
+	opacity: 1;
+}
+
+.a_l{
+	background: url(../pic/arrows.png) no-repeat 15px 0;
+}
+
+.a_r{
+	background: url(../pic/arrows.png) no-repeat -15px 0;
+}
+
 .Pic{
 	position: relative;
 	background: #0C6;	
