@@ -29,11 +29,11 @@ $(function(){
 							$('.general h1').animate({opacity: 1},1000);});
 		});		
 				}
-				if(index == 4){
+				if(index == 5){
 					$('.experience_text').animate({opacity: 1, top: 20+'%', right: '10%'},500);
 					$('.experience_bar').animate({opacity: 1, top: 77+'%', left: '10%'},500);
 				}
-				if(index == 3){
+				if(index == 4){
 					$('.projects_text').stop().animate({opacity: 1, top: '5%'}, 400,function(){
 						$('.projects_1').stop().animate({marginTop:'2%'},400,function(){
 							$('.projects_2').stop().animate({marginTop:'2%'},400,function(){
@@ -43,14 +43,12 @@ $(function(){
 									$('.projects_3 img').stop().animate({width:'150px', marginTop:'120px'},400);});});});});
 
 				}
-				if(index == 5){
+				if(index == 6){
 					$('.education_text').stop().animate({left: 0},800);
 					$('.schools').stop().animate({left: 0},800);
 				}
-				if(index == 6){
+				if(index == 3){
 					$('.skills_text').animate({top: 3+'%'}, 800);
-					$('.skills_ul1').stop().animate({marginLeft: '30%'},800);
-					$('.skills_ul2').stop().animate({marginRight: '30%'},800);
 				}
 				if(index == 7)
 					$('.hobbies_list').stop().animate({height: 600},800);

@@ -267,33 +267,42 @@ body, html{
 .skills_text{
 	position: absolute;
 	margin: auto;left: 0; right: 0;
-	top:-30%;
+	top:-100%;
 	padding-top: 40px;
 	text-align: center;
 	color: #FFF;
 }
 
-.skills_ul1{
-	width: 250px;
-	font-size: 18px;
+.skills_text ul{
 	list-style: none;
-	line-height: 30px;
-	text-align: left;
-	margin-left: -35%;
+	width: 25%;
 	float: left;
+	text-align: center;
+	color: #FFF;
+}
+
+.skills_ul1{
+	font-size: 18px;
+	line-height: 30px;
 	cursor: default;
 }
 
-.skills_ul2{
-	width: 220px;
-	font-size: 18px;
-	color: #0FF;
-	list-style: none;
-	line-height: 30px;
+.skills_ul1 p{
 	text-align: right;
-	margin-right: -35%;
-	float: right;
+}
+
+.skills_ul2 li{
+	color: #0FF;
+}
+
+.skills_ul2{
+	line-height: 30px;
+	font-size: 18px;
 	cursor: default;
+}
+
+.skills_ul2 p{
+	text-align: left;
 }
 
 .hobbies{
