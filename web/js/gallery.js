@@ -64,7 +64,6 @@ $(function(){
 		
 		//when right arrow is clicked
 		$('.a_r').click(function(){
-			
 			if(obj.index()==2){	
 				if(obj.hasClass('lastphoto')){}
 					//do nothing;
