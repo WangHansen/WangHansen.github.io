@@ -38,7 +38,7 @@ $(function(){
 		$('#ShowPic').css("top", topPos +'px');
 		$('#ShowPic').css("left", leftPos +'px');
 		
-		$oArrow = "<div class='arrows a_l'></div><div class='arrows a_r'></div>"
+		$oArrow = "<div class='arrows a_l'></div><div class='arrows a_r'></div>";
 		$('.mainBody').append($oArrow);
 		$('.arrows').css("top", (wHeight - 50)/2 +'px');
 		$('.a_l').css("left", (wWidth - pWidth)/2 +'px');
@@ -46,9 +46,10 @@ $(function(){
 		
 		//when left arrow is clicked
 		$('.a_l').click(function(){
-			if(obj.index()==0){	
-				if(obj.hasClass('firstphoto')){}
+			if(obj.index()==0){
+				if(obj.hasClass('firstphoto')){
 					//do nothing;
+				}
 				else{
 					$('div').remove('#ShowPic');
 					$('div').remove('.arrows');
@@ -65,8 +66,9 @@ $(function(){
 		//when right arrow is clicked
 		$('.a_r').click(function(){
 			if(obj.index()==2){	
-				if(obj.hasClass('lastphoto')){}
+				if(obj.hasClass('lastphoto')){
 					//do nothing;
+				}
 				else{
 					$('div').remove('#ShowPic');
 					$('div').remove('.arrows');
