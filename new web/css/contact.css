@@ -1,0 +1,335 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	header .mobliemenu{
+		transform: translate(0,0) !important;
+	}
+	header ul{
+		margin-left: -300px;
+	}
+	header li{
+		margin-left: 50px !important;
+	}
+	header>ul>li>a:first-child{
+		margin-left: 0 !important;
+	}
+	header li a, header a{
+		display: list-item;
+		list-style: none;
+		margin: 20px 0;
+	}
+	header li:last-child{
+		float: none !important;
+	}
+	header{
+		height: 100% !important;
+		width: auto !important;
+		-webkit-box-shadow: 5px 0px 45px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 5px 0px 45px 0px rgba(0,0,0,0.75);
+		box-shadow: 5px 0px 45px 0px rgba(0,0,0,0.75);
+	}
+	header ul{
+		background-color: black;
+		height: 100%;
+		padding-top: 50px;
+		width: 300px !important;
+	}
+	.Container{
+		width: 100% !important;
+	}
+	.contactPhoto img{
+		margin-top: 10px !important;
+		float: left !important;
+	}
+	.line{
+		display: none !important;
+	}
+	.email{
+		margin-bottom: 0px !important;
+	}
+	.map{
+		margin-top: 0px !important;
+	}
+	#blockmap{
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.content{
+		width: 100% !important;
+	}
+	.Container{
+		width: 90% !important;
+	}
+}
+
+header{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100px;
+	z-index: 100;
+}
+
+header .mobliemenu{
+	position: absolute;
+	top: 0;
+	margin: 10px 20px;
+	transform: translate(-100px,0);
+}
+
+header li a{
+	color: #EEEEEE;
+	font-size: 15px;
+	margin-right: 30px;
+}
+
+header li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+header li{
+	display: inline-block;
+	height: 52px;
+	/*width: 180px;*/
+	margin-top: 20px;
+}
+
+header li:last-child{
+	float: right;
+	border: solid 2px white;
+	margin-right: 50px;
+	width: 180px;
+	font-family: "Microsoft YaHei";
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	-webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+	transition: ease-in-out .3s;
+}
+
+header li:last-child:hover{
+	background-color: white;
+	color: #212121;
+}
+
+header>ul>li>a:first-child{
+	margin-left: 50px;
+}
+
+.Container{
+	width: 80%;
+	margin: auto;
+}
+
+.mainBody{
+
+}
+
+.top{
+	background: url(../img/contact1.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+	height: 450px;
+}
+
+.top img{
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
+
+.content{
+	width: 70%;
+	margin: auto;
+	height: 300px;
+}
+
+.contactInfo{
+
+}
+
+.contactInfo h3{
+	font-family: "Microsoft YaHei";
+	font-weight: 200;
+	margin-top: 50px; 
+	margin-bottom: 30px;
+	color: #4a4a4a;
+}
+
+.contactInfo h4{
+	font-weight: 300;
+	color: #424242;
+}
+
+.contactInfo a{
+	color: #424242;
+}
+
+.contactInfo a:hover{
+	font-weight: 400;
+	color: black;
+}
+
+.contactInfo img{
+	width: 40px;
+	background-color: black;
+	border: solid 2px black;
+}
+
+.contactPhoto img{
+	width: 230px;
+	float: right;
+	margin-top: 70px;
+}
+
+.download_resume{
+	display: block;
+	border: solid 1px #424242;
+	padding: 15px;
+	margin-top: 20px;
+	width: 180px;
+	-webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+	transition: ease-in-out .3s;
+}
+
+.download_resume:hover{
+	background-color: #424242;
+	color: white !important;
+	text-decoration: none;
+}
+
+.email{
+	margin: 40px auto;
+	/*border: solid 1px black;*/
+}
+
+.line{
+	height: 2px;
+	background-color: #424242;
+	margin-top: 50px;
+}
+
+form{
+	font-family: "Microsoft YaHei";
+	font-weight: 300;
+	color: #424242;
+}
+
+input{
+	background-color: #F5F5F5;
+	border: none;
+	border: solid 1px #BDBDBD;
+	height: 35px;
+	margin-bottom: 15px !important;
+}
+
+input:focus,textarea:focus{
+	background-color: white;
+	border: none;
+	border: solid 1px #BDBDBD;
+}
+
+input:last-child{
+	height: auto;
+	font-weight: 400;
+}
+
+textarea{
+	background-color: #F5F5F5;
+	border: none;
+	border: solid 1px #BDBDBD;
+	width: 100%;
+	height: 120px;
+	resize: none;
+}
+
+.submit_email{
+	display: block;
+	background-color: white;
+	border: solid 1px #424242;
+	padding: 10px;
+	margin-top: 20px;
+	width: 120px;
+	-webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+	transition: ease-in-out .3s;
+}
+
+.submit_email:hover{
+	background-color: #424242 !important;
+	color: white !important;
+	text-decoration: none;
+}
+
+.submit_email:focus{
+	background-color: white;
+}
+
+.map{
+	position: relative;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+#map{
+	/*margin-top: 40px;*/
+	width: 100%;
+	height: 475px;
+}
+
+#blockmap{
+	display: none;
+	width: 360px;
+	height: 390px;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+/*Footer*/
+
+footer{
+	clear: both;
+	background: black;
+	text-align: center;
+}
+
+#hansenicon{
+	width: 60px;
+	height: 60px;
+	margin: 20px;
+}
+
+footer img{
+	margin: 10px;
+	margin-bottom: 60px;
+	width: 30px;
+	height: 30px;
+}
+
+footer a{
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: inline-block;
+	line-height: 30px;
+	color: #BDBDBD;
+	margin: 0 15px;
+	font-size: 16px;
+	opacity: 0.7;
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
