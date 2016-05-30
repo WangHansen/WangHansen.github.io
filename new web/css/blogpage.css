@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 html{
@@ -101,7 +102,6 @@ header li:last-child{
 	border: solid 2px white;
 	margin-right: 50px;
 	width: 180px;
-	font-family: "Microsoft YaHei";
 	font-size: 20px;
 	color: white;
 	text-align: center;
@@ -110,11 +110,11 @@ header li:last-child{
     -moz-transition: ease-in-out .3s;
 	transition: ease-in-out .3s;
 }
-
+/*
 header li:last-child:hover{
 	background-color: white;
-	color: #3498db;
-}
+	color: #;
+}*/
 
 header>ul>li>a:first-child{
 	margin-left: 50px;
@@ -127,7 +127,6 @@ header>ul>li>a:first-child{
 
 .top{
 	position: relative;
-	background-color: #3498db;
 	background-size: cover;
 	margin: auto;
 	text-align: center;
@@ -144,14 +143,12 @@ header>ul>li>a:first-child{
 
 .title_header{
 	color: white;
-	font-family: "Microsoft YaHei";
 	text-align: center;
 	font-size: 50px;
 }
 
 .author{
 	margin: 20px auto;
-	font-family: "Microsoft YaHei";
 	float: left;
 }
 
@@ -187,18 +184,29 @@ header>ul>li>a:first-child{
 	background-color: #9E9E9E;
 }
 
+#blog{
+	clear: both;
+}
+
+#blog:before{
+	content: "";
+    display: block;
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+    background-color: #9E9E9E;
+}
+
+
 figure p{
 	font-size: 18px !important;
 	line-height: 28px !important;
 	text-align: center;
-	font-family: "Microsoft YaHei" !important;
 }
 
 .content p{
 	font-size: 20px;
 	line-height: 32px;
-	font-family: "TiemposTextWeb-Regular",Georgia,serif;
-	color: #757575;
 	font-weight: 200;
 	margin-bottom: 20px;
 }

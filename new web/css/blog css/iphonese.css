@@ -1,0 +1,8 @@
+.top{
+	background-color: #3498db;
+}
+
+header li:last-child:hover{
+	background-color: white;
+	color: #3498db;
+}
