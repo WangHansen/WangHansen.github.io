@@ -203,7 +203,7 @@ article .share{
 	width: 120px;
 	display: block;
 	padding: 10px;
-	transform: translate(0,100px);
+	transform: translate(0,200px);
 	transition: all 0.5s;
 	z-index: 15;
 	text-align: center;
@@ -216,14 +216,14 @@ article figure:hover figcaption p{
 }
 
 article figure:hover .share{
-	transform: translate(20px,100px);
+	transform: translate(20px,200px);
 }
 
 article figure:hover >img{
 	transform: translate(0,-50px);
 }
 
-#article1{
+#article1, #article2{
 	height: inherit;
 	width: 100%;
 	position: absolute;
