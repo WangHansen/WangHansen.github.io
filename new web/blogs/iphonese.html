@@ -28,7 +28,37 @@
 		js = d.createElement(s); js.id = id;
 		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
 		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+	}(document, 'script', 'facebook-jssdk'));
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '1704529963155723',
+			xfbml      : true,
+			version    : 'v2.5'
+		});
+	};
+
+	function share_on_facebook(){
+		FB.ui({
+			method: 'share_open_graph',
+			action_type: 'og.likes',
+			action_properties: JSON.stringify({
+				object:'http://hansenwang.ml/blogs/iphonese.html',
+			})
+		}, function(response){
+      // Debug response (optional)
+      console.log(response);
+  });
+	}
+
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+	</script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<header>
 		<a class="mobliemenu">
@@ -61,7 +91,7 @@
 				<div class="share">
 					<ul style="list-style: none; margin-bottom: 0">
 						<li style="margin-left: 0"><img class="share_on_facebook" src="../img/blogs/f_share.png" alt="" style="cursor: pointer;"></li>
-						<li><a class="twitter_share_button" href="https://twitter.com/intent/tweet?text=Is%20the%20announcement%20of%20IPhoneSE%20a%20sign%20of%20Apple%20going%20downhill;url=http://hansenwang.ml/iphonese.html"><img src="../img/blogs/t_share.png" alt="" ></a></li>
+						<li><a class="twitter_share_button" href="https://twitter.com/intent/tweet?text=Is%20the%20announcement%20of%20IPhoneSE%20a%20sign%20of%20Apple%20going%20downhill;url=http://hansenwang.ml/blogs/iphonese.html"><img src="../img/blogs/t_share.png" alt="" ></a></li>
 					</ul>
 				</div>
 				<div id="blog">
@@ -112,17 +142,17 @@
 					</p>
 					<div class="share_small">
 						<div class="col-xs-12 col-sm-3">
-							<div class="fb-like" data-href="http://hansenwang.ml/iphonese.html" data-layout="standard" data-action="like" data-show-faces="true" data-share="false" data-width="225px"></div>
+							<div class="fb-like" data-href="http://hansenwang.ml/blogs/iphonese.html" data-layout="standard" data-action="like" data-show-faces="true" data-share="false" data-width="225px"></div>
 						</div>
 						<div class="col-xs-12 col-sm-3">	
-							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hansenwang.ml/iphonese.html" data-text="Is the announcement of PhoneSE a sign of Apple going downhill">Tweet</a>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hansenwang.ml/blogs/iphonese.html" data-text="Is the announcement of PhoneSE a sign of Apple going downhill">Tweet</a>
 						</div>
 						<div class="col-xs-12 col-sm-3">	
 							<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-							<script type="IN/Share" data-url="http://hansenwang.ml/iphonese.html" data-counter="right"></script>
+							<script type="IN/Share" data-url="http://hansenwang.ml/blogs/iphonese.html" data-counter="right"></script>
 						</div>
 						<div class="col-xs-12 col-sm-3">
-							<div class="g-plus" data-action="share" data-width="300" data-href="http://hansenwang.ml/iphonese.html"></div>
+							<div class="g-plus" data-action="share" data-width="300" data-href="http://hansenwang.ml/blogs/iphonese.html"></div>
 						</div>
 					</div>
 				</div>
