@@ -1,0 +1,151 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0
+}
+
+span{
+	font-size: 15px;
+}
+
+h3{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+p{
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 10px 0px;
+}
+
+a{
+	color: #666;
+	text-decoration: none;
+}
+
+.article{
+	padding: 0px 5px 0px 5px;
+	margin: 5px auto;
+	margin-top: 10px;
+	width: 1326px;
+	height: 440px;
+}
+
+/*.article img{
+	position: absolute;
+	width: 1326px;
+	height: 440px;
+	z-index: 10;
+	opacity: 0;
+}
+*/
+.article a{
+	position: absolute;
+	width: 1326px;
+	height: 440px;
+	z-index: 10;
+	opacity: 0;
+}
+
+#slide1{
+	background-image: url(../pic/note.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:1326px;
+	height:440px;
+	opacity:1;
+	z-index: 15;
+	
+	text-align: center;
+}
+
+#slide2{
+	background-image: url(../pic/article1_1326x440.jpg);
+	width:1326px;
+	height:440px;
+}
+
+#slide3{
+	background-image: url(../pic/article3_1326x440.jpg);
+	width:1326px;
+	height:440px;
+}
+
+.dotsnav{
+	position: absolute;
+	text-align: center;
+	height: 25px;
+	width: 100%;
+	min-width: 1336px;
+	top: 550px;
+	z-index: 20;
+}
+
+.dotsnav ul{
+	display: inline-block;
+	margin: 0;
+}
+
+.dotsnav li{
+    list-style: none;
+    margin: 0 10px;
+    width: 8px;
+    height: 8px;
+    float: left;
+    position: relative;
+}
+
+.dotsnav-item{
+    width: 10px;
+    height: 10px;
+    outline: none;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #999;
+    font: 0/0 a;
+    color: transparent;
+	cursor: pointer;
+}
+
+.curDot{
+	/*top: -1px;
+	left: -1px;
+	border: 1px solid #08c;*/
+	background: white;
+}
+
+.content{
+	margin: 0 auto;
+	width: 1336px;
+}
+
+.pic{
+	width: 324px;
+	float: left;
+	margin: 5px 5px 10px 5px;
+	font-size: 16px;
+	font-family: "Microsoft YaHei UI";
+	overflow: hidden;
+	height: 200px;
+	text-align: center;
+}
+
+.pic a{
+	padding: 20px 5px;
+	background: #0CF;
+	color: #FFF;
+	opacity: 0;
+	display: block;
+	position: absolute;
+	width: 314px;
+	height: 160px;
+	text-align: center;
+}
+
+.pic ul{
+	opacity: 1;
+	list-style: none;
+	text-indent: 40px;
+	text-align: left;
+	font: bold;
+}

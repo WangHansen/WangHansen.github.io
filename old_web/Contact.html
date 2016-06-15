@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   	<link rel="shortcut icon" href="pic/ICON.ico" />
+	<title>Hansen Wang</title>
+ 	
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/header_footer.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    
+   <!-- css include-->
+    <link href="css/header_footer.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="announcement" style="font-size: 20px; text-align: center; font-family: 'Microsoft YaHei'; color: red">This site is not for use anymore, to visit the new site, please <a href="http://hansenwang.ml/new.html">click here</a></div>
+    <nav class="top">
+    	<div class="top_text">
+        	<div class="top_links">
+                <a href="http://velocity.uwaterloo.ca/">Velocity</a>
+                |
+                <a href="https://uwaterloo.ca/">University of Waterloo</a>
+                |
+                <a href="https://www.applyboard.com/">Applyboard</a>
+        	</div>
+        	<div class="top_social">
+            	<a href="http://facebook.com/HansenWang.Price"><img src="pic/facebook.PNG" width="30%" /></a>
+                <a href="https://www.linkedin.com/in/%E6%B1%89%E6%A3%AE-%E7%8E%8B-59797a106"><img src="pic/linkedin.PNG" width="30%"  /></a>
+    		</div> 
+        	<div class="top_language">
+                <a href="">简体中文</a> 
+                <!--<a href="">ENGLISH</a>-->
+        	</div>   	
+        </div>
+    </nav>
+    <nav class="header">
+        <div class="header_text">
+        	<div class="header_icon">
+            	<a href="index.html"><img id="logo" src="pic/hansenICON1.jpg" width="60px" /></a>
+                <div class="header_iconlist">
+                	<li><a href="#"><img title="about me" src="pic/about.png" /></a></li>
+                    <li><a href="#"><img title="news" src="pic/news.png"  /></a></li>
+                    <li><a href="#"><img title="gallery" src="pic/photos.png"/></a></li>
+                    <li><a href="#"><img title="store" src="pic/store.png" /></a></li>
+                    <li><a href="#"><img title="resume" src="pic/resume.png" /></a></li>
+                    <li><a href="Contact.html"><img title="contact me" src="pic/contact.png" /></a></li>
+                </div>
+           </div>
+            <!--上半部分的菜单是藏在图标里面的-->
+         <div class="header_nav">
+         <li></li>
+            <!--<li class="drop_menu_about">
+            	<a href="#">About</a>
+                    <ul class="about_options">
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Hobbies</a></li>
+                        <li><a href="#">Activities</a></li>
+                </ul>
+             </li>-->
+            <a href="#"><li>News</li></a>
+            <a href="#"><li>Photos</li></a>
+            <a href="#"><li>Store</li></a>
+                <li class="drop_menu_resume">
+                <a href="Resume.html">Resume</a>
+                    <ul class="download-options">
+                    	<li><a href="Resume.html">Interactive</a></li>
+                        <li><a href="files/Hansen_Resume.pdf"><span>Download Resume</span></a></li>
+                    </ul>
+                </li>
+            <li class ="drop_menu_contact">
+            <a href="#">Contact</a>
+            	<ul class="contact-options">
+                	<li><a href="mailto:h473wang@uwaterloo.ca"><span>Send me an email</span></a></li>
+                    <li><a href="#"><span>Make a donation</span></a></li>
+                </ul>
+            </li>
+            </div>
+    	</div>
+    </nav>
+    <!--/////////////////////////////////////////////////////////////////////////////header////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="mainBody">
+    	<div id="contactInfo">
+        	<div class="contact">
+            	<h1>Contact Me</h1>
+                <br />
+                <p><strong>Phone</strong>: 647-918-4722</p>
+                <p><span>(Since I am often in class, it is not encouraged to contact me through my phone. A better way is to send me emails, I will responsed as soon as I receive your email.)</span><br/>
+                <strong>Email</strong>: <a href="mailto:h473wang@uwaterloo.ca" s>h473wang@uwaterloo.ca</a></p>
+                <p><strong>Address</strong>: 157 University Avenue West, N2L 3E5</p>
+                <p><strong>School</strong>: University of Waterloo</p>
+                <p><strong>Social Media</strong>: <a href="https://www.facebook.com/HansenWang.Price" >Facebook</a> <a href="https://ca.linkedin.com/in/汉森-王-59797a106" >Linkedin</a></p>
+            </div>
+        </div>
+    	<div id="map">
+    	</div>
+    </div>
+    <!--////////////////////////////////////////////////////////////////////////////footer//////////////////////////////////////////////////////////////////////////////////////-->
+    <footer class="footer">
+    	<div class="footer_text">
+            <div class="footer_sitemap">
+                <h3>Site Map</h3>
+                <p><a href="">Home</a></p>
+                <p><a href="Resume.html">About</a></p>
+                <p><a href="">News</a></p>
+                <p><a href="">Photos</a></p>
+                <p><a href="">Store</a></p>
+            </div>
+            <div class="footer_resume">
+                <h3>Resume</h3>
+                <p><a href="files/Hansen_Resume.pdf">Download</a></p>
+                <p><a href="Resume.html">Interactive</a></p>
+            </div>
+            <div class="footer_contact">
+                <h3>Contact Information</h3>
+                <p>Phone: 647-918-4722(Canada)</p>
+                <p>Email: h473wang@uwaterloo.ca &nbsp; &nbsp;agentwhs@gmail.com</p>
+                <p><a href="http://facebook.com/HansenWang.Price"><img src="pic/facebook.PNG" width="30px" /></a>
+                <a href="https://www.linkedin.com/in/%E6%B1%89%E6%A3%AE-%E7%8E%8B-59797a106"><img src="pic/linkedin.PNG" width="30px"  /></a></p>
+            </div>
+            <div class="footer_copyright">Copyright © 2016 hansen.com All Rights Reserved</div>
+		</div>
+    </footer>
+    
+</body>
+</html>
