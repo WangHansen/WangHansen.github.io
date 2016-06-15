@@ -1,0 +1,265 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: white !important;
+}
+
+h1{
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-weight: 200 !important;
+}
+
+h3{
+	color: #E0E0E0 !important;
+	font-weight: 200 !important;
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+header li:last-child:hover a{
+	color: #333 !important;
+}
+
+#fp-nav ul li a span{
+	background-color: white !important;
+}
+
+#fp-nav ul li a.active span{
+    height: 10px;
+    width: 11px;
+    border: solid 1px blue;
+    margin: -6px 0 0 -6px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	#name{
+		font-size: 70px !important;
+	}
+	introduction{
+		font-size: 24px !important;
+	}
+	.fp-slides{
+		overflow: visible !important;
+	}
+	.projs img{
+		display: none;
+	}
+	.gallery{
+		width: 100% !important;
+	}
+	.gallery img{
+		width: 250px;
+	}
+	.slide{
+		display: none !important;
+	}
+	.projectsAlt{
+		display: block !important;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.projs{
+		width: 100% !important;
+	}
+}
+
+.intro{
+	background: url(../img/first.jpg) no-repeat;
+	background-size: cover;
+}
+
+.introduction{
+	margin: auto;
+	background: transparent;
+	color: #E0E0E0;
+	font-family: "Microsoft YaHei", 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+	text-align: center;
+}
+
+#name{
+	color: white;
+	/*font-family: "Microsoft YaHei";*/
+	font-size: 100px;
+	text-align: center;
+}
+
+.skills{
+	background: url(../img/second.jpg) no-repeat;
+	background-size: cover;
+}
+
+.skill_content{
+	text-align: center;
+	font-size: 25px;
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	color: white;
+}
+
+.projDes{
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200 !important;
+}
+
+.projDes h3{
+	text-align: left;
+}
+
+.projDes h4{
+	font-weight: 200 !important;
+	line-height: 30px;
+}
+
+.projDes a{
+	color: white; 
+	text-decoration: underline;
+}
+
+.projDes p{
+	text-align: left;
+	font-size: 16px;
+}
+
+.projs{
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+
+.projs img{
+	max-width: 300px;
+	max-height: 280px;
+}
+
+.projs .col-sm-5{
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.projs .col-sm-5 h3{
+	font-weight: 200 !important;
+	padding-bottom: 20px;
+}
+
+.projects{
+	background: black;
+}
+
+.projectsAlt{
+	height: 400px;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+.projectsAlt a{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	border: solid 1px white;
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+}
+
+.slide{
+	background-color: #212121;
+}
+
+.experience{
+	background-color: #424242;
+	/*background: url(../img/third.jpg) no-repeat;*/
+	background-size: cover;
+	font-weight: 200 !important;
+}
+
+.experience h1{
+	clear: both;
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+.experience h3{
+	text-align: center;
+	color: white !important;
+	font-weight: 100;
+} 
+
+.exp_content h4{
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200 !important;
+}
+
+.exp_content ul:before{
+	content: "";
+	display: block;
+	height: 1px;
+	background: white;
+	margin: 15px 0;
+}
+
+.exp_content ul{
+	list-style: none;
+	text-align: left;
+	color: white;
+	margin: 0 10%;
+}
+
+.gallery{
+	display: block;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.gallery img{
+	height: 150px;
+	padding: 10px;
+}
+
+.blog{
+	text-align: center;
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200 !important;
+	background-color: #BDBDBD;
+}
+
+.blogs{
+	padding: 25px 10px;
+}
+
+.blogs>div{
+	cursor: pointer;
+	width: 100%;
+	max-width: 320px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+	-webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.blogs>div:hover{
+	-webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
+}
+
+.blogs>div>div{
+	font-size: 20px;
+	background: white;
+	color: black;
+	width: 100%;
+	max-width: 320px;
+}

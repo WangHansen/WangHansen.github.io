@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header li:last-child:hover a{
+	color: #27272F;
+}
+
+@media screen and (max-width: 768px) {
+	article figure:hover .share{
+		transform: translate(20px,300px) !important;
+	}
+	article .share{
+		transform: translate(0,300px) !important;
+	}
+	article figcaption p{
+		display: none;
+	}
+	article figure:hover >img{
+		transform: translate(0,0) !important;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.Container{
+		width: 100% !important;
+	}
+	.content{
+		width: 100% !important;
+	}
+}
+
+.Container{
+	width: 80%;
+	margin: auto;
+}
+
+.top{
+	background: url(../img/blog.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+	height: 450px;
+}
+
+.top img{
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
+
+.content:before{
+	content: "";
+	display: block;
+	height: 10px;
+}
+
+article{
+	height: 400px;
+	padding: 10px !important;
+}
+
+article:last-of-type{
+	margin-bottom: 10px;
+}
+
+article figure{
+	height: 100%;
+	color: WHITE;
+	position: relative;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+
+figure img{
+	width: 100%;
+	min-height: 100%;
+	transition: all 0.5s;
+}
+
+article figure:hover{
+	opacity: 0.8;
+}
+
+article figcaption{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+}
+
+article figcaption p{
+	position: absolute;
+	text-overflow: ellipsis; 
+	top: 0;
+	background-color: white;
+	color: black;
+	padding:0 10px;
+	height: 90px;
+	line-height: 30px;
+	width: 100%;
+	font-size: 18px;
+	transform: translate(0,380px);
+	transition: all 0.5s;
+}
+
+article .share{
+	background-color: white;
+	position: absolute;
+	top: 0;
+	color: black;
+	width: 120px;
+	display: block;
+	padding: 10px;
+	transform: translate(0,200px);
+	transition: all 0.5s;
+	z-index: 15;
+	text-align: center;
+}
+
+article figure:hover figcaption p{
+	color: white;
+	background-color: black;
+	transform: translate(0,290px);
+}
+
+article figure:hover .share{
+	transform: translate(20px,200px);
+}
+
+article figure:hover >img{
+	transform: translate(0,-50px);
+}
+
+#article1, #article2{
+	height: inherit;
+	width: 100%;
+	position: absolute;
+	display: block;
+	z-index: 10;
+}
+
+.article2 figure{
+	background-color: #3b5999;
+}
+
+.article3 figure{
+	background-color: #e52d27;
+}
+
+.article4 figure{
+	background-color: #FFFC00;
+}
+
+.article5 figure{
+	background-color: #25D366;
+}

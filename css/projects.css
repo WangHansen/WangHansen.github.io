@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header li:last-child:hover a{
+	color: black;
+}
+
+#fp-nav ul li a span{
+	background-color: white !important;
+}
+
+#fp-nav ul li a.active span{
+    height: 10px;
+    width: 11px;
+    border: solid 1px blue;
+    margin: -6px 0 0 -6px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	article figure:hover .share{
+		transform: translate(20px,300px) !important;
+	}
+	article .share{
+		transform: translate(0,300px) !important;
+	}
+	article figcaption p{
+		display: none;
+	}
+	article figure:hover >img{
+		transform: translate(0,0) !important;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.Container{
+		width: 100% !important;
+	}
+	.content{
+		width: 100% !important;
+	}
+}
+
+.Container{
+	width: 80%;
+	margin: auto;
+}
+
+.section:nth-of-type(even){
+	background-color: #f1c40f;
+	color: #131418;
+}
+
+.section:nth-of-type(odd){
+	background-color: #131418;
+	color: #f1c40f;
+}
+
+.projDes h3{
+	text-align: left;
+}
+
+.projDes h4{
+	line-height: 30px;
+}
+
+.projDes a{
+	color: inherit; 
+	text-decoration: underline;
+}
+
+.projDes a:hover{
+	color: white; 
+	text-decoration: none;
+}
+
+.projDes p{
+	text-align: left;
+	font-size: 16px;
+}
+
+#projs{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#projs h2, #projs h3{
+	color: white;
+}
+
+.top{
+	background: url(../img/projects.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+}
+
+.top img{
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
