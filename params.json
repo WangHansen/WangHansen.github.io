@@ -1,0 +1,6 @@
+{
+  "name": "Personal-website",
+  "tagline": "This is my personal website",
+  "body": "### Welcome to My personal Website Pages.\r\nwww.hansenwang.ml\r\n\r\nThis page contains my basic information.\r\n\r\nAlso some of my personal opinion about some of the biggest companies' movements like Apple Inc.\r\n\r\nIf you want to contact me, you can find my contact information on my site.\r\n\r\nThere is a build-in email system on my site as well that allows you to send email to me directly.\r\n\r\nThanks for visiting my personal website.\r\n\r\n### Language and Framework used\r\nThe site is mainly build by Html5/PHP/CSS3/JQuery\r\n\r\nThe framework I used: Bootstrap/Fullpage.js\r\n\r\n### Authors and Contributors\r\n@WangHansen\r\n \r\n### Support or Contact\r\nHaving any problem you want to contact me?\r\n\r\nGo to www.hansenwang.ml",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
