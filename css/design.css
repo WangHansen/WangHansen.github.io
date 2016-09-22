@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header li:last-child:hover a{
+	color: #27272F;
+}
+
+@media screen and (max-width: 768px) {
+	article figure:hover .share{
+		transform: translate(20px,300px) !important;
+	}
+	article .share{
+		transform: translate(0,300px) !important;
+	}
+	article figcaption p{
+		display: none;
+	}
+	article figure:hover >img{
+		transform: translate(0,0) !important;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.Container{
+		width: 100% !important;
+	}
+	.content{
+		width: 100% !important;
+	}
+}
+
+.Container{
+	width: 80%;
+	margin: auto;
+}
+
+.top{
+	background: url(../img/design.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+	height: 450px;
+}
+
+.top img{
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
+
+.content:before{
+	content: "";
+	display: block;
+	height: 10px;
+}
+
+.content{
+	background: #e8e8e8;
+}
+
+.design-container{
+	height: 500px;
+	
+}
+
+.design-content{
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	min-width: 200px;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+	background: white;
+}
+
+.design-content:hover{
+	-webkit-box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+
+}
