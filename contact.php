@@ -36,7 +36,7 @@
 					<h4>Hansen Wang</h4>
 					<a href="tel:647-918-4722">647-918-4722</a><br/>
 					<a href="mailto:h473wang@uwaterloo.ca">h473wang@uwaterloo.ca</a>
-					<p>157 University Avenue West<br/>
+					<p>303 Westcourt Place<br/>
 					   Waterloo, ON, Canada</p>
 				    <a href="https://www.facebook.com/HansenWang.Price"><img src="img/icons/facebook.png" alt="" href="asd.com"></a>
 					<a href="https://ca.linkedin.com/in/wanghansen"><img src="img/icons/linkedin.png" alt=""></a>
