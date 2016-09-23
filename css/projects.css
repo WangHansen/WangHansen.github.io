@@ -102,4 +102,5 @@ header li:last-child:hover a{
 	vertical-align: middle;
 	margin: auto;
 	display: block;
+	max-width: 100%;
 }
