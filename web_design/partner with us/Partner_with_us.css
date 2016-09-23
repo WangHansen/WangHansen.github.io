@@ -1,0 +1,318 @@
+@applyboard_color_green: #1AB394;
+@applyboard_color_blue: #2593E7;
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+	font-weight: 200;
+}
+
+a:focus{
+	color: white;
+}
+
+html, body{
+	height: 100%;
+}
+
+span.title{
+	display: block;
+	width: 100%;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 30px;
+}
+
+span.slide_title{
+	display: block;
+	width: 100%;
+	color: #1AB394;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+span.strong_num{
+	display: block;
+	font-size: 68px;
+	padding-top: 30px;
+	line-height: 72px;
+	color: #1AB394;
+}
+
+span.strong_num_des{
+	font-size: 20px;
+	line-height: 20px;
+	/*color: #1AB394;*/
+}
+
+#background{
+	min-height: 700px;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(background.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.filter{
+	background: black;
+	opacity: 0.8;
+	height: 100%;
+	width: 100%;
+}
+
+#background h1{
+	font-size: 48px;
+	margin: 0 0 20px 0;
+	font-weight: 400;
+}
+
+#background h2{
+	font-size: 40px;
+	margin: 0 0 50px 0;
+	font-weight: 300;
+}
+
+#background p{
+	width: 60%;
+	line-height: 1.35;
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.bg_des{
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	width: 100%;
+	height: 340px;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.achievement{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.achievement a{
+	padding: 0 0 15px 0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.achievement img{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	height: 300px;
+}
+
+.benefit{
+	margin: 40px 0;
+}
+
+.benefit:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.benefit_pic{
+	padding: 10px;
+}
+
+.benefit_des{
+	padding: 50px;
+}
+
+span.benefit_title{
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	border-left: solid 2px #1ab394;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.benefit_p{
+	max-width: 540px;
+	font-size: 22px;
+}
+
+.benefit_pic img{
+	width: 100%;
+	max-width: 540px;
+}
+
+
+@media(min-width: 768px){
+	.benefit:nth-of-type(odd) .benefit_pic{
+		float: right;
+	}
+}
+
+#benefits{
+	overflow: hidden;
+}
+
+#benefits hr{
+	margin-left: -50%;
+	width: 200%;
+}
+
+#how{
+	overflow: hidden;
+}
+
+section{
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	height: 600px;
+}
+
+.slide_buttons{
+	width: 100%;
+	z-index: 8;
+}
+
+.slide_button{
+	width: 100%;
+	position: relative;
+}
+
+.slide_arrow_left{
+	background: url(arrow.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	height: 600px;
+	width: 5%;
+	z-index: 6;
+	left:0;
+	display: none;
+	position: absolute;
+	cursor: pointer;
+}
+
+.slide_arrow_right{
+	transform: rotate(180deg);
+	background: url(arrow.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	height: 600px;
+	width: 5%;
+	right: 0;
+	z-index: 6;
+}
+
+.slide{
+	transition: 0.8s ease-in-out;
+	width: 100%;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	text-align: center;
+	opacity: 0;
+}
+
+.slide_active{
+	z-index: 5;
+	opacity: 1;
+}
+
+.slide img{
+	max-width: 728px;
+	width: 90%;
+}
+
+.slide p{
+	font-size: 18px;
+}
+
+.dots{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	list-style: none;
+	width: 100%;
+	height: 20px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.dots li{
+	width: 20px;
+	display: inline-block;
+}
+
+.dots li a{
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: black;
+	cursor: pointer;
+}
+
+.dot_active a{
+	background: white !important;
+	border: solid 1px blue;
+}
+
+#apply{
+	/*margin-top: 60px;*/
+	background: url(work.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	color: white;
+	padding-top: 280px;
+}
+
+.apply_now{
+	transition: 0.3s ease-in-out;
+	font-weight: 400 !important;
+	display: block;
+	width: 280px;
+	font-size: 30px;
+	border: solid 2px white;
+	padding: 10px 0;
+	text-align: center;
+	margin: 20px auto;
+	color: white;
+}
+
+.apply_now:hover{
+	text-decoration: none;
+	color: #1ab394;
+	background: white;
+}
+
+footer:before{
+	content: "";
+	clear: both;
+	background: #f9f9f9;
+	height: 2px;
+	width: 100%;
+	display: block;
+}
