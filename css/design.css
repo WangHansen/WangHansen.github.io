@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header li:last-child:hover a{
+	color: #27272F;
+}
+
+@media screen and (max-width: 768px) {
+	article figure:hover .share{
+		transform: translate(20px,300px) !important;
+	}
+	article .share{
+		transform: translate(0,300px) !important;
+	}
+	article figcaption p{
+		display: none;
+	}
+	article figure:hover >img{
+		transform: translate(0,0) !important;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.Container{
+		width: 100% !important;
+	}
+	.content{
+		width: 100% !important;
+	}
+}
+
+.Container{
+	width: 80%;
+	margin: auto;
+}
+
+.top{
+	background: url(../img/design.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+	height: 450px;
+}
+
+.top img{
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+}
+
+.content:before{
+	content: "";
+	display: block;
+	height: 10px;
+}
+
+.design-content{
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	margin: 10px;
+	min-width: 200px;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+	background: white;
+	margin-bottom: 50px;
+	/*border: 1px solid #757575;*/
+}
+
+.design-content{
+	/*-webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);*/
+	background-color: #EEEEEE;
+}
+
+.design-content img{
+	width: 90%;
+	margin: 20px 5%;
+	border: 1px solid #FB8C00;
+}
+
+.design-site, .design-site-alive{
+	display: block;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	-webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.design-site{
+	border: 1px solid #e53935;
+	color: #e53935;
+}
+
+.design-site:hover{
+	background: #e53935;
+	text-decoration: none;
+	color: white;
+}
+
+.design-site-alive{
+	border: 1px solid #1E88E5;
+	color: #1E88E5;
+}
+
+.design-site-alive:hover{
+	background-color: #1E88E5;;
+	text-decoration: none;
+	color: white;
+}
+
+.design-intro{
+	padding: 20px 5%;
+	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
