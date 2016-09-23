@@ -26,7 +26,7 @@
 	<header></header>
 	<div class="mainBody">
 		<div class="top">
-			<img src="img/blogs/hello.png" style="padding-top: 180px;" alt="">		
+			<img src="img/hello.png" style="padding-top: 180px;" alt="">		
 			<!-- <img src="img/blogs/welcome.png" style="margin-top: 10px;" alt=""> -->
 		</div>
 		<div class="content">
