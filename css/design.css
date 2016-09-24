@@ -127,4 +127,5 @@ header li:last-child:hover a{
 	padding: 20px 5%;
 	font-family: "Microsoft YaHei" ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	text-align: center;
 }
