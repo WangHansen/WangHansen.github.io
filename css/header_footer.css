@@ -181,7 +181,7 @@ header>ul>li:first-child a{
 
 footer{
 	clear: both;
-	background: black;
+	background: black !important;
 	text-align: center;
 }
 
