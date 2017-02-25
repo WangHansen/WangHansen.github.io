@@ -15,3 +15,15 @@ Folders
 
 Access from github
 >Since github pages doesn't support PHP, so trying to access the contact page will result in a download of the page, to contact, please find my contact info on my resume, thank you
+
+##Preview
+![alt text](https://WangHansen.github.io/img/designs/1.png "Main Page")
+
+![alt text](https://WangHansen.github.io/img/designs/2.png "Main Page")
+
+![alt text](https://WangHansen.github.io/img/designs/3.png "Main Page")
+
+![alt text](https://WangHansen.github.io/img/designs/4.png "Main Page")
+
+![alt text](https://WangHansen.github.io/img/designs/5.png "Main Page")
+>PLease go to my website and check out other beautiful pages
