@@ -1,6 +1,6 @@
 # Personal-Website
 ### This is my personal website
-#### Live Demo: [hansenwang.mllive demo](http://www.hansenwang.ml)
+#### Live Demo: [hansenwang.ml](http://www.hansenwang.ml)
 
 ## Tech Used
 1. Html 5
