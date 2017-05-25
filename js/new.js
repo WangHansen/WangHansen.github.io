@@ -1,6 +1,6 @@
 $(function(){
 	
-	$("#fullpage").fullpage({
+  $("#fullpage").fullpage({
     anchors:['INTRO', 'SKILLS', 'PROJECTS','EXPERIENCE', 'BlOG'],
     navigationTooltips: ['INTRO', 'SKILLS', 'PROJECTS','EXPERIENCE', 'BlOG'],
     resize: true,
@@ -13,9 +13,13 @@ $(function(){
     // responsiveHeight: 400
   });
 
-	$('.projectsAlt').css({
-		marginTop: ($(window).height()-400)/2+"px",
-	});
+  $('.projectsAlt').css({
+  	marginTop: ($(window).height()-400)/2+"px",
+  });
+
+  $('#warning-icon').click(function(){
+    $('#warning').remove();
+  })
 
   //set the projc name/img vertically centered
   for(var i=1; i<4; i++){

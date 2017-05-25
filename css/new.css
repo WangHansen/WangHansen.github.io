@@ -1,27 +1,20 @@
 *{
 	padding: 0;
 	margin: 0;
-
+	font-family: MyFont ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @font-face {
-	font-family: MicrosoftYaHei;
-	src: url(../font/microsoftyahei.ttf);
+	font-family: MyFont;
+	src: url(../font/Quicksand-Regular.otf);
 }
 
 a{
 	color: white !important;
 }
 
-h1{
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-	font-weight: 200 !important;
-}
-
 h3{
 	color: #E0E0E0 !important;
-	font-weight: 200 !important;
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 header li:last-child:hover a{
@@ -72,6 +65,11 @@ header li:last-child:hover a{
 	}
 }
 
+.section{
+	padding-top: 20px;
+	padding-bottom: 20px;;
+}
+
 .intro{
 	background: url(../img/first.jpg) no-repeat;
 	background-size: cover;
@@ -81,35 +79,33 @@ header li:last-child:hover a{
 	margin: auto;
 	background: transparent;
 	color: #E0E0E0;
-	font-family: MicrosoftYaHei, 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 32px;
-	font-weight: 200;
 	text-align: center;
 }
 
 #name{
 	color: white;
-	/*font-family: MicrosoftYaHei;*/
 	font-size: 100px;
 	text-align: center;
 }
 
 .skills{
-	background: url(../img/second.jpg) no-repeat;
+	background: url(../img/second1.png) no-repeat;
 	background-size: cover;
 }
 
 .skill_content{
 	text-align: center;
 	font-size: 25px;
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 200;
 	color: white;
 }
 
+.skill_content ul span{
+	color: #BDBDBD;
+	text-decoration: underline;
+}
+
 .projDes{
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 200 !important;
 }
 
 .projDes h3{
@@ -117,7 +113,6 @@ header li:last-child:hover a{
 }
 
 .projDes h4{
-	font-weight: 200 !important;
 	line-height: 30px;
 }
 
@@ -143,12 +138,10 @@ header li:last-child:hover a{
 }
 
 .projs .col-sm-5{
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
 .projs .col-sm-5 h3{
-	font-weight: 200 !important;
 	padding-bottom: 20px;
 }
 
@@ -181,7 +174,6 @@ header li:last-child:hover a{
 	background-color: #424242;
 	/*background: url(../img/third.jpg) no-repeat;*/
 	background-size: cover;
-	font-weight: 200 !important;
 }
 
 .experience h1{
@@ -194,12 +186,9 @@ header li:last-child:hover a{
 .experience h3{
 	text-align: center;
 	color: white !important;
-	font-weight: 100;
 } 
 
 .exp_content h4{
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 200 !important;
 }
 
 .exp_content ul:before{
@@ -231,8 +220,6 @@ header li:last-child:hover a{
 
 .blog{
 	text-align: center;
-	font-family: MicrosoftYaHei ,'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 200 !important;
 	background-color: #BDBDBD;
 }
 
@@ -249,15 +236,15 @@ header li:last-child:hover a{
 	-moz-box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
 	-webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
 }
 
 .blogs>div:hover{
 	-webkit-transform: translateY(-15px);
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-    -webkit-box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
+	-moz-transform: translateY(-15px);
+	transform: translateY(-15px);
+	-webkit-box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 60px -5px rgba(0,0,0,0.75);
 }
